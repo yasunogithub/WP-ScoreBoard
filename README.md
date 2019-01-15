@@ -4,8 +4,8 @@
 https://yasumelt.net/scoreboard/
 
 ## 手順
-1. なにはともあれテーブル追加．テーブル名に「wp__」をつけるのを忘れずに．
-2. wp/wp-includes/wp-db.php 内，tables変数に「wp___」_を省略して追記．
+1. なにはともあれテーブル追加．テーブル名に「wp_」をつけるのを忘れずに．
+2. wp/wp-includes/wp-db.php 内，tables変数に「wp_」_を省略して追記．
 3. WPダッシュボードで固定ページを追加する．
 4. 固定ページで使用しているテンプレートファイル内（page.php）にscore.phpの内容を適宜変更して追記．
 5. 完成！
@@ -19,6 +19,7 @@ CREATE TABLE wp_score
   score int not null
 );
 ```
+
 +----+--------------+-------+
 | id | name         | score |
 +----+--------------+-------+
