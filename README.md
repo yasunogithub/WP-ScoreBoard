@@ -21,7 +21,7 @@ CREATE TABLE wp_score
 ```
 
 | id | name | score |
-----|---- 
+----|----|----
 | 1 | sakamoto | 10 |
 | 2 | yasu | 20 |
 | 3 | ああああ | 99 |
